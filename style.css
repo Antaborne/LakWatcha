@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f6fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.tabs a.active {
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0043ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0033cc;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot a {
+  color: #666;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
